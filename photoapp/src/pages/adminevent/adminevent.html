@@ -1,0 +1,45 @@
+<!--
+  Generated template for the AdmineventPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-toolbar color="dark">
+  <ion-navbar>
+    <ion-title>Events</ion-title>
+  </ion-navbar>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding >
+
+<ion-card>
+  <button ion-item (click)="loadcompetition()"><div class="card-title">Competition</div></button>
+    <a (click)="goToPage()">Event Details</a>
+</ion-card>
+
+
+  <ion-card>
+    <button ion-item (click)="loadexhibition()"><div class="card-title">Exhibition</div></button>
+    <a (click)="goToPage()">Event Details</a>
+  </ion-card>
+
+
+  <ion-card>
+    <button ion-item (click)="loadparty()"><div class="card-title">Party</div></button>
+    <a (click)="goToPage()">Event Details</a>
+  </ion-card>
+
+  <ion-card>
+    <button ion-item (click)="loadtours()"><div class="card-title">Tours</div></button>
+    <a (click)="goToPage()">Event Details</a>
+  </ion-card>
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="dark">
+  </ion-toolbar>
+</ion-footer>
